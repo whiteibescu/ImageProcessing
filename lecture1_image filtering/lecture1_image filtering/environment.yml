@@ -1,0 +1,21 @@
+name: course
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - tqdm
+  - numpy
+  - matplotlib
+  - scikit-image
+#  - cudatoolkit=11.1
+  - cudatoolkit=10.2
+  - pytorch::pytorch
+  - pytorch::torchvision
+
+  - pip:
+      - opencv-python
